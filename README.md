@@ -25,13 +25,13 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] Describe the game's purpose. -> a number guessing game where players try to guess a secret number within a limited number of attempts. The game provides "Higher" or "Lower" hints and tracks score based on how quickly you guess correctly.
+- [ ] Detail which bugs you found. -> New game button not actually restarting the game, mismatched hints for going higher or lower, and hitting return on my keyboard would not submit my number
+- [ ] Explain what fixes you applied. -> I flipped the logic on the hints to suggest correctly, and I added code to reset the features of the game so that the game would actually restart when new game was clicked
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] ![alt text](image.png)
 
 ## 🚀 Stretch Features
 
